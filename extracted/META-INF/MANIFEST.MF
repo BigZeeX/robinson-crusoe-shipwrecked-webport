@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+MIDlet-Name: Shipwrecked
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: Exkee
+MIDlet-Icon: /icon24_24.png
+MIDlet-1: Shipwrecked,/icon24_24.png,Robinson.MyMidlet
+MIDlet-Data-Size: 4000
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+Created-By: Packager v2.4.2

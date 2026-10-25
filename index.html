@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Robinson Crusoe: Shipwrecked — HTML5 Web Port</title>
+  <link rel="icon" type="image/png" href="/icon24_24.png">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    body {
+      background: #12151a;
+      color: #e0e6ed;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow-x: hidden;
+      padding: 12px;
+    }
+
+    .main-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      max-width: 100%;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #ffd166;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    header p {
+      font-size: 0.8rem;
+      color: #8da2b5;
+      margin-top: 2px;
+    }
+
+    /* Retro Phone Case Bezel */
+    .phone-container {
+      background: linear-gradient(145deg, #2b313a, #1a1e24);
+      padding: 16px 14px 20px;
+      border-radius: 28px;
+      box-shadow: 0 16px 38px rgba(0,0,0,0.7), inset 0 2px 3px rgba(255,255,255,0.15);
+      border: 2px solid #3d4552;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .speaker-slot {
+      width: 48px;
+      height: 4px;
+      background: #0f1216;
+      border-radius: 2px;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,0.8);
+    }
+
+    .screen-wrapper {
+      position: relative;
+      background: #000;
+      border: 3px solid #0d1013;
+      border-radius: 6px;
+      box-shadow: inset 0 0 12px rgba(0,0,0,0.9), 0 2px 4px rgba(255,255,255,0.05);
+      overflow: hidden;
+      width: 240px;
+      height: 320px;
+    }
+
+    @media (min-height: 700px) and (min-width: 540px) {
+      .screen-wrapper {
+        width: 360px;
+        height: 480px;
+      }
+    }
+
+    @media (min-height: 850px) and (min-width: 720px) {
+      .screen-wrapper {
+        width: 480px;
+        height: 640px;
+      }
+    }
+
+    canvas#gameCanvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -webkit-crisp-edges;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+      cursor: crosshair;
+    }
+
+    /* Controls Overlay & Keypad */
+    .keypad-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+    }
+
+    .softkeys-row {
+      display: flex;
+      justify-content: space-between;
+      width: 240px;
+    }
+
+    .key-btn {
+      background: linear-gradient(180deg, #384250, #222a35);
+      border: 1px solid #485466;
+      color: #f0f4f8;
+      border-radius: 8px;
+      padding: 6px 14px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.4), inset 0 1px 1px rgba(255,255,255,0.2);
+      transition: all 0.08s ease;
+      touch-action: manipulation;
+    }
+
+    .key-btn:active, .key-btn.active {
+      transform: translateY(2px);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.6);
+      background: #1b2129;
+    }
+
+    .dpad-container {
+      display: grid;
+      grid-template-columns: repeat(3, 44px);
+      grid-template-rows: repeat(3, 44px);
+      gap: 4px;
+    }
+
+    .dpad-btn {
+      background: linear-gradient(180deg, #323b47, #1f252d);
+      border: 1px solid #4a5666;
+      color: #ffd166;
+      font-weight: bold;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 3px 5px rgba(0,0,0,0.5);
+      touch-action: manipulation;
+      font-size: 1rem;
+    }
+
+    .dpad-btn:active, .dpad-btn.active {
+      transform: translateY(2px);
+      background: #171b21;
+    }
+
+    .dpad-center {
+      background: linear-gradient(180deg, #e67e22, #d35400);
+      border: 1px solid #f39c12;
+      color: #fff;
+      font-size: 0.8rem;
+    }
+
+    .instructions {
+      max-width: 420px;
+      background: #1b2028;
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid #2d3542;
+      font-size: 0.75rem;
+      line-height: 1.4;
+      color: #9cb1c5;
+    }
+
+    .instructions strong {
+      color: #ffd166;
+    }
+
+    .instructions ul {
+      margin-left: 18px;
+      margin-top: 4px;
+    }
+
+    .loading-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #000;
+      color: #ffd166;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      font-size: 0.85rem;
+      z-index: 10;
+    }
+
+    .spinner {
+      width: 28px;
+      height: 28px;
+      border: 3px solid rgba(255,209,102,0.2);
+      border-top-color: #ffd166;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* ── Emulator Mode ──────────────────────────────────────── */
+    .emu-btn {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: linear-gradient(180deg, #1a4a6e, #0f2d45);
+      border: 1px solid #2a7ab5;
+      color: #72c6f4;
+      border-radius: 8px;
+      padding: 7px 16px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.1);
+      transition: all 0.1s ease;
+      touch-action: manipulation;
+      letter-spacing: 0.03em;
+    }
+    .emu-btn:hover { background: linear-gradient(180deg, #215f8d, #13385a); border-color: #3a9fd4; color: #a8ddf7; }
+    .emu-btn:active { transform: translateY(2px); box-shadow: 0 1px 3px rgba(0,0,0,0.7); }
+
+    /* Modal backdrop */
+    #emuModal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.88);
+      z-index: 1000;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 16px;
+    }
+    #emuModal.open { display: flex; }
+
+    .emu-modal-inner {
+      background: #141820;
+      border: 2px solid #2a7ab5;
+      border-radius: 14px;
+      width: min(96vw, 760px);
+      max-height: 94vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.9);
+    }
+
+    .emu-modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 16px;
+      background: #0f1419;
+      border-bottom: 1px solid #223344;
+    }
+    .emu-modal-header h2 {
+      font-size: 0.95rem;
+      color: #72c6f4;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .emu-modal-header .emu-badge {
+      font-size: 0.65rem;
+      background: #1a4a6e;
+      border: 1px solid #2a7ab5;
+      color: #a8ddf7;
+      padding: 2px 7px;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+    .emu-close-btn {
+      background: #1e2730;
+      border: 1px solid #3a4555;
+      color: #b0c4d8;
+      border-radius: 6px;
+      padding: 4px 10px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+    .emu-close-btn:hover { background: #c0392b; color: #fff; border-color: #e74c3c; }
+
+    .emu-body {
+      display: flex;
+      flex: 1;
+      min-height: 0;
+      gap: 0;
+    }
+
+    /* The actual emulator iframe panel */
+    .emu-frame-panel {
+      flex: 1;
+      background: #000;
+      min-height: 400px;
+      position: relative;
+    }
+    #emuFrame {
+      width: 100%;
+      height: 100%;
+      min-height: 400px;
+      border: none;
+      display: block;
+    }
+    .emu-frame-placeholder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      color: #5a7a96;
+      font-size: 0.82rem;
+      gap: 10px;
+      text-align: center;
+      padding: 20px;
+    }
+    .emu-frame-placeholder strong { color: #72c6f4; font-size: 1rem; }
+    .emu-load-btn {
+      background: linear-gradient(180deg, #1a6e3a, #0f4525);
+      border: 1px solid #2ab56a;
+      color: #72f4a8;
+      border-radius: 8px;
+      padding: 8px 20px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+    }
+    .emu-load-btn:hover { background: linear-gradient(180deg, #1e8d47, #11552e); }
+
+    /* Side info panel */
+    .emu-info-panel {
+      width: 220px;
+      background: #0f1419;
+      border-left: 1px solid #1e2e3e;
+      padding: 14px 12px;
+      overflow-y: auto;
+      font-size: 0.73rem;
+      color: #8aa8c0;
+      flex-shrink: 0;
+    }
+    .emu-info-panel h3 {
+      color: #ffd166;
+      font-size: 0.78rem;
+      margin-bottom: 8px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #223344;
+    }
+    .emu-info-panel .key-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 3px 0;
+      border-bottom: 1px solid #181e27;
+    }
+    .emu-info-panel .key-row:last-child { border-bottom: none; }
+    .emu-key {
+      background: #1e2730;
+      border: 1px solid #3a4555;
+      color: #dce8f4;
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.72rem;
+      white-space: nowrap;
+    }
+    .emu-info-panel p {
+      margin-top: 10px;
+      line-height: 1.5;
+      color: #6a8ea8;
+    }
+    .emu-info-panel a {
+      color: #72c6f4;
+      text-decoration: none;
+    }
+    .emu-jar-note {
+      margin-top: 10px;
+      padding: 8px;
+      background: #0a1520;
+      border: 1px solid #1a3a55;
+      border-radius: 6px;
+      line-height: 1.5;
+    }
+    .emu-jar-note strong { color: #a8ddf7; }
+
+    @media (max-width: 560px) {
+      .emu-info-panel { display: none; }
+      .emu-frame-panel { min-height: 300px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="main-wrapper">
+  <header>
+    <h1><img src="/icon24_24.png" width="20" height="20" alt="Icon"> Robinson Crusoe: Shipwrecked</h1>
+    <p>Authentic J2ME HTML5 Canvas Native Engine (Exkee / Celsius)</p>
+  </header>
+
+  <div class="phone-container">
+    <div class="speaker-slot"></div>
+
+    <div class="screen-wrapper">
+      <div id="loading" class="loading-overlay">
+        <div class="spinner"></div>
+        <div id="loadingText">Loading Island Resources...</div>
+      </div>
+      <canvas id="gameCanvas" width="240" height="320"></canvas>
+    </div>
+
+    <div class="keypad-container">
+      <div class="softkeys-row">
+        <button class="key-btn" id="btnMenu" title="Menu / Inventory (Key 1 / I)">INVENT.</button>
+        <button class="key-btn" id="btnAction" title="Action / Craft (Key 3 / C)">CRAFT</button>
+      </div>
+
+      <div class="dpad-container">
+        <div></div>
+        <button class="dpad-btn" id="btnUp" title="Up (W / ArrowUp)">▲</button>
+        <div></div>
+        <button class="dpad-btn" id="btnLeft" title="Left (A / ArrowLeft)">◀</button>
+        <button class="dpad-btn dpad-center" id="btnOk" title="OK / Interact (Enter / Space / 5)">OK</button>
+        <button class="dpad-btn" id="btnRight" title="Right (D / ArrowRight)">▶</button>
+        <div></div>
+        <button class="dpad-btn" id="btnDown" title="Down (S / ArrowDown)">▼</button>
+        <div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="instructions">
+    <strong>Keyboard Controls:</strong>
+    <ul>
+      <li><strong>Arrow Keys / WASD</strong>: Walk Robinson & navigate menus</li>
+      <li><strong>Enter / Space / 5</strong>: OK, Interact, Confirm, Harvest, Action</li>
+      <li><strong>I / Tab / 1</strong>: Open Inventory & Stats</li>
+      <li><strong>C / 3</strong>: Open Crafting Menu</li>
+      <li><strong>Touch / Click</strong>: Touch screen or D-pad buttons to play</li>
+    </ul>
+  </div>
+
+  <!-- Emulator Mode button -->
+  <button class="emu-btn" id="btnEmulatorMode" title="Play the original J2ME .jar in a browser emulator (FreeJ2ME-Web)">
+    <span>📱</span> Emulator Mode
+  </button>
+</div>
+
+<!-- == Emulator Mode Modal == -->
+<div id="emuModal" role="dialog" aria-modal="true" aria-label="J2ME Emulator Mode">
+  <div class="emu-modal-inner">
+    <div class="emu-modal-header">
+      <h2>
+        📱 J2ME Emulator Mode
+        <span class="emu-badge">FreeJ2ME-Web</span>
+      </h2>
+      <button class="emu-close-btn" id="btnEmuClose">✕ Close</button>
+    </div>
+    <div class="emu-body">
+      <div class="emu-frame-panel">
+        <div class="emu-frame-placeholder" id="emuPlaceholder">
+          <strong>🎮 Original J2ME Game</strong>
+          <p>Run the original .jar in FreeJ2ME-Web to compare<br>sprites, map layout, and object positions.</p>
+          <button class="emu-load-btn" id="btnEmuLoad">▶ Launch Emulator</button>
+          <p style="font-size:0.7rem;margin-top:6px;color:#456">Requires internet access for FreeJ2ME-Web CDN.</p>
+        </div>
+        <iframe
+          id="emuFrame"
+          style="display:none"
+          allow="autoplay; fullscreen"
+          sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-modals"
+          title="FreeJ2ME Web Emulator">
+        </iframe>
+      </div>
+      <div class="emu-info-panel">
+        <h3>📖 How to Use</h3>
+        <p>1. Click <strong>Launch Emulator</strong><br>
+           2. Wait for FreeJ2ME-Web to initialize<br>
+           3. Download the JAR, then drag &amp; drop it into the emulator</p>
+        <div class="emu-jar-note">
+          <strong>Game JAR:</strong><br>
+          <a href="/game.jar" download="robinson_crusoe.jar">⬇ Download game.jar</a>
+          <br><span style="color:#6a8ea8;font-size:0.7rem">Drag &amp; drop into emulator after launch</span>
+        </div>
+        <h3 style="margin-top:12px">⌨️ Emulator Controls</h3>
+        <div class="key-row"><span>Move</span><span class="emu-key">↑↓←→</span></div>
+        <div class="key-row"><span>OK / Confirm</span><span class="emu-key">Enter</span></div>
+        <div class="key-row"><span>Left Softkey</span><span class="emu-key">F1 / Q</span></div>
+        <div class="key-row"><span>Right Softkey</span><span class="emu-key">F2 / W</span></div>
+        <div class="key-row"><span>* key</span><span class="emu-key">E</span></div>
+        <div class="key-row"><span># key</span><span class="emu-key">R</span></div>
+        <div class="key-row"><span>0–9 keys</span><span class="emu-key">0–9</span></div>
+        <div class="key-row"><span>Settings</span><span class="emu-key">Esc</span></div>
+        <h3 style="margin-top:12px">💡 Debug Tips</h3>
+        <p>Use emulator mode to:<br>
+        • Identify sprite positions visually<br>
+        • Verify tile → sprite sheet mapping<br>
+        • Cross-check object map placement<br>
+        • Note correct sprite IDs per object</p>
+        <p style="margin-top:10px">
+          <a href="https://github.com/zb3/freej2me-web" target="_blank" rel="noopener">FreeJ2ME-Web on GitHub ↗</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var modal       = document.getElementById('emuModal');
+    var openBtn     = document.getElementById('btnEmulatorMode');
+    var closeBtn    = document.getElementById('btnEmuClose');
+    var loadBtn     = document.getElementById('btnEmuLoad');
+    var placeholder = document.getElementById('emuPlaceholder');
+    var frame       = document.getElementById('emuFrame');
+    var jarUrl      = window.location.origin + '/game.jar';
+
+    function openModal()  { modal.classList.add('open');    document.body.style.overflow = 'hidden'; }
+    function closeModal() { modal.classList.remove('open'); document.body.style.overflow = ''; }
+
+    openBtn.addEventListener('click',  openModal);
+    closeBtn.addEventListener('click', closeModal);
+    modal.addEventListener('click', function(e) { if (e.target === modal) closeModal(); });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+    });
+
+    loadBtn.addEventListener('click', function () {
+      placeholder.style.display = 'none';
+      frame.style.display = 'block';
+      // Pass the JAR URL so FreeJ2ME-Web can auto-load it (if CORS allows)
+      frame.src = 'https://zb3.github.io/freej2me-web/?jar=' + encodeURIComponent(jarUrl);
+    });
+  })();
+</script>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>

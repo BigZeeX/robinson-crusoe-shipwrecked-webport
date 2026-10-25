@@ -1,0 +1,23 @@
+{
+  "name": "java-web-port",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Native Web/HTML5 Canvas port of Robinson Crusoe: Shipwrecked J2ME",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "j2me",
+    "game",
+    "retro",
+    "canvas",
+    "html5"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^8.3.5"
+  }
+}

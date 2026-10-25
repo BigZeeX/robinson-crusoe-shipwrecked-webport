@@ -1,0 +1,2743 @@
+{
+  "objects": [
+    {
+      "id": 0,
+      "row0": 0,
+      "row1": 0,
+      "row2": -1,
+      "hunger": 3,
+      "energy": 15,
+      "row5": 0,
+      "health": 8,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 1,
+      "row0": 0,
+      "row1": 3,
+      "row2": -1,
+      "hunger": 3,
+      "energy": 25,
+      "row5": 0,
+      "health": 8,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 2,
+      "row0": -1,
+      "row1": 0,
+      "row2": 83,
+      "hunger": 15,
+      "energy": -1,
+      "row5": 0,
+      "health": 10,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 3,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -3,
+      "isCraftable": true,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 4,
+      "row0": -1,
+      "row1": 0,
+      "row2": 81,
+      "hunger": 100,
+      "energy": -1,
+      "row5": 0,
+      "health": 25,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 5,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -10,
+      "isCraftable": true,
+      "recipe": [
+        {
+          "id": 3,
+          "count": 1
+        },
+        {
+          "id": 8,
+          "count": 1
+        },
+        {
+          "id": 6,
+          "count": 1
+        }
+      ],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 6,
+      "row0": 76,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -3,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 7,
+      "row0": 76,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -1,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 8,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -3,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 9,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 5,
+      "health": -20,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 8,
+          "count": 3
+        },
+        {
+          "id": 12,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": -1,
+      "row11": -1,
+      "row12": 2
+    },
+    {
+      "id": 10,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 10,
+      "health": -30,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 36,
+          "count": 4
+        },
+        {
+          "id": 91,
+          "count": 5
+        },
+        {
+          "id": 93,
+          "count": 2
+        },
+        {
+          "id": 13,
+          "count": 4
+        },
+        {
+          "id": 39,
+          "count": 3
+        },
+        {
+          "id": 21,
+          "count": 2
+        }
+      ],
+      "tool": [
+        {
+          "id": 5,
+          "count": 1
+        },
+        {
+          "id": 77,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": -1,
+      "row12": 3
+    },
+    {
+      "id": 11,
+      "row0": 5,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -3,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 12,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -3,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 13,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -3,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 14,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -5,
+      "isCraftable": true,
+      "recipe": [
+        {
+          "id": 6,
+          "count": 1
+        },
+        {
+          "id": 38,
+          "count": 1
+        },
+        {
+          "id": 13,
+          "count": 1
+        }
+      ],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 15,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 5,
+      "health": -10,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 7,
+          "count": 8
+        },
+        {
+          "id": 8,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "count": 8
+        }
+      ],
+      "tool": [],
+      "row10": 9,
+      "row11": -1,
+      "row12": 3
+    },
+    {
+      "id": 16,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 5,
+      "health": -3,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 7,
+          "count": 3
+        },
+        {
+          "id": 8,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "count": 2
+        }
+      ],
+      "tool": [],
+      "row10": 9,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 17,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": 0,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 2
+    },
+    {
+      "id": 18,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": 0,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 2
+    },
+    {
+      "id": 19,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": 0,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 54,
+          "count": 1
+        },
+        {
+          "id": 93,
+          "count": 3
+        },
+        {
+          "id": 13,
+          "count": 8
+        },
+        {
+          "id": 91,
+          "count": 5
+        },
+        {
+          "id": 36,
+          "count": 6
+        },
+        {
+          "id": 39,
+          "count": 5
+        }
+      ],
+      "tool": [
+        {
+          "id": 78,
+          "count": 1
+        },
+        {
+          "id": 77,
+          "count": 1
+        },
+        {
+          "id": 80,
+          "count": 1
+        },
+        {
+          "id": 23,
+          "count": 1
+        },
+        {
+          "id": 22,
+          "count": 1
+        },
+        {
+          "id": 79,
+          "count": 1
+        }
+      ],
+      "row10": 18,
+      "row11": -1,
+      "row12": 4
+    },
+    {
+      "id": 20,
+      "row0": 76,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": 0,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 21,
+      "row0": 92,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -20,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 22,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": 0,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 23,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": 0,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 24,
+      "row0": 0,
+      "row1": 0,
+      "row2": -1,
+      "hunger": 6,
+      "energy": 3,
+      "row5": 0,
+      "health": 5,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 25,
+      "row0": 0,
+      "row1": 0,
+      "row2": -1,
+      "hunger": 3,
+      "energy": 3,
+      "row5": 0,
+      "health": 5,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 26,
+      "row0": 76,
+      "row1": 0,
+      "row2": -1,
+      "hunger": 5,
+      "energy": -1,
+      "row5": 0,
+      "health": 5,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 27,
+      "row0": 76,
+      "row1": 76,
+      "row2": -1,
+      "hunger": 5,
+      "energy": 25,
+      "row5": 0,
+      "health": 8,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 28,
+      "row0": 0,
+      "row1": 0,
+      "row2": -1,
+      "hunger": 2,
+      "energy": 5,
+      "row5": 0,
+      "health": 3,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 29,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -5,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 44,
+          "count": 1
+        },
+        {
+          "id": 68,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 30,
+      "row0": 0,
+      "row1": 16,
+      "row2": -1,
+      "hunger": 3,
+      "energy": -1,
+      "row5": 0,
+      "health": 5,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 31,
+      "row0": 0,
+      "row1": 16,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -50,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 32,
+      "row0": 0,
+      "row1": 16,
+      "row2": -1,
+      "hunger": 3,
+      "energy": -1,
+      "row5": 0,
+      "health": 6,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 33,
+      "row0": 0,
+      "row1": 16,
+      "row2": -1,
+      "hunger": 3,
+      "energy": -1,
+      "row5": 0,
+      "health": 7,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 34,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 5,
+      "health": -20,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 38,
+          "count": 1
+        },
+        {
+          "id": 37,
+          "count": 2
+        },
+        {
+          "id": 91,
+          "count": 4
+        }
+      ],
+      "tool": [
+        {
+          "id": 78,
+          "count": 1
+        },
+        {
+          "id": 77,
+          "count": 1
+        }
+      ],
+      "row10": 10,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 35,
+      "row0": 76,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -3,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 36,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -4,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 11,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 37,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -4,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 11,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 89,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 38,
+      "row0": 96,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -20,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 39,
+      "row0": 76,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -3,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 40,
+      "row0": -1,
+      "row1": 0,
+      "row2": 14,
+      "hunger": 20,
+      "energy": -1,
+      "row5": 0,
+      "health": 30,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 41,
+      "row0": -1,
+      "row1": 16,
+      "row2": 81,
+      "hunger": 20,
+      "energy": -1,
+      "row5": 0,
+      "health": 10,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 42,
+      "row0": -1,
+      "row1": 0,
+      "row2": 81,
+      "hunger": 100,
+      "energy": -1,
+      "row5": 0,
+      "health": 30,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 43,
+      "row0": -1,
+      "row1": 0,
+      "row2": 81,
+      "hunger": 100,
+      "energy": -1,
+      "row5": 0,
+      "health": 30,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 44,
+      "row0": -1,
+      "row1": 0,
+      "row2": 81,
+      "hunger": 80,
+      "energy": -1,
+      "row5": 0,
+      "health": 50,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 45,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -5,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 8,
+          "count": 5
+        },
+        {
+          "id": 3,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 76,
+          "count": 1
+        },
+        {
+          "id": 81,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 46,
+      "row0": -1,
+      "row1": 0,
+      "row2": 81,
+      "hunger": 10,
+      "energy": -1,
+      "row5": 0,
+      "health": 10,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 47,
+      "row0": -1,
+      "row1": 16,
+      "row2": 81,
+      "hunger": 10,
+      "energy": -1,
+      "row5": 0,
+      "health": 50,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 48,
+      "row0": -1,
+      "row1": 16,
+      "row2": 81,
+      "hunger": 20,
+      "energy": -1,
+      "row5": 0,
+      "health": 10,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 49,
+      "row0": -1,
+      "row1": 16,
+      "row2": 81,
+      "hunger": 30,
+      "energy": -1,
+      "row5": 0,
+      "health": 10,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 50,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 5,
+      "health": -10,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 37,
+          "count": 4
+        },
+        {
+          "id": 91,
+          "count": 2
+        },
+        {
+          "id": 20,
+          "count": 2
+        },
+        {
+          "id": 35,
+          "count": 2
+        }
+      ],
+      "tool": [
+        {
+          "id": 5,
+          "count": 1
+        },
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": 10,
+      "row11": -1,
+      "row12": 5
+    },
+    {
+      "id": 51,
+      "row0": -1,
+      "row1": 0,
+      "row2": 81,
+      "hunger": 5,
+      "energy": -1,
+      "row5": 0,
+      "health": 5,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 52,
+      "row0": -1,
+      "row1": 0,
+      "row2": 81,
+      "hunger": 5,
+      "energy": -1,
+      "row5": 0,
+      "health": 5,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 53,
+      "row0": -1,
+      "row1": 0,
+      "row2": 81,
+      "hunger": 10,
+      "energy": -1,
+      "row5": 0,
+      "health": 5,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 54,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -10,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 12,
+          "count": 4
+        },
+        {
+          "id": 118,
+          "count": 1
+        },
+        {
+          "id": 116,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 86,
+          "count": 1
+        },
+        {
+          "id": 97,
+          "count": 1
+        }
+      ],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 55,
+      "row0": -1,
+      "row1": 0,
+      "row2": 81,
+      "hunger": 100,
+      "energy": -1,
+      "row5": 0,
+      "health": 100,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 56,
+      "row0": -1,
+      "row1": 0,
+      "row2": 14,
+      "hunger": 25,
+      "energy": -1,
+      "row5": 0,
+      "health": 25,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 57,
+      "row0": -1,
+      "row1": 0,
+      "row2": 14,
+      "hunger": 30,
+      "energy": -1,
+      "row5": 0,
+      "health": 10,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 58,
+      "row0": -1,
+      "row1": 0,
+      "row2": 14,
+      "hunger": 20,
+      "energy": -1,
+      "row5": 0,
+      "health": 50,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 59,
+      "row0": -1,
+      "row1": 0,
+      "row2": 83,
+      "hunger": 20,
+      "energy": -1,
+      "row5": 0,
+      "health": 10,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 60,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 5,
+      "health": -10,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 119,
+          "count": 3
+        },
+        {
+          "id": 64,
+          "count": 4
+        }
+      ],
+      "tool": [
+        {
+          "id": 34,
+          "count": 1
+        }
+      ],
+      "row10": 10,
+      "row11": -1,
+      "row12": 5
+    },
+    {
+      "id": 61,
+      "row0": -1,
+      "row1": 0,
+      "row2": 81,
+      "hunger": 30,
+      "energy": -1,
+      "row5": 0,
+      "health": 10,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 62,
+      "row0": -1,
+      "row1": 0,
+      "row2": 81,
+      "hunger": 5,
+      "energy": -1,
+      "row5": 0,
+      "health": 5,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 63,
+      "row0": -1,
+      "row1": 0,
+      "row2": 81,
+      "hunger": 5,
+      "energy": -1,
+      "row5": 0,
+      "health": 5,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 64,
+      "row0": 0,
+      "row1": 16,
+      "row2": -1,
+      "hunger": 3,
+      "energy": 5,
+      "row5": 0,
+      "health": 5,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 65,
+      "row0": 0,
+      "row1": 16,
+      "row2": -1,
+      "hunger": 4,
+      "energy": 5,
+      "row5": 0,
+      "health": 10,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 66,
+      "row0": 0,
+      "row1": 76,
+      "row2": -1,
+      "hunger": 5,
+      "energy": 5,
+      "row5": 0,
+      "health": 30,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 67,
+      "row0": 0,
+      "row1": 16,
+      "row2": -1,
+      "hunger": 4,
+      "energy": 5,
+      "row5": 0,
+      "health": 7,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 68,
+      "row0": 0,
+      "row1": 16,
+      "row2": -1,
+      "hunger": 4,
+      "energy": 5,
+      "row5": 0,
+      "health": 20,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 69,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -5,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 4,
+          "count": 1
+        },
+        {
+          "id": 68,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 70,
+      "row0": 0,
+      "row1": 16,
+      "row2": -1,
+      "hunger": 4,
+      "energy": 5,
+      "row5": 0,
+      "health": 25,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 71,
+      "row0": 76,
+      "row1": 0,
+      "row2": -1,
+      "hunger": 5,
+      "energy": 5,
+      "row5": 0,
+      "health": 15,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 72,
+      "row0": 0,
+      "row1": 16,
+      "row2": -1,
+      "hunger": 6,
+      "energy": 5,
+      "row5": 0,
+      "health": 20,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 73,
+      "row0": 0,
+      "row1": 16,
+      "row2": -1,
+      "hunger": 4,
+      "energy": 5,
+      "row5": 0,
+      "health": 10,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 74,
+      "row0": 0,
+      "row1": 16,
+      "row2": -1,
+      "hunger": 3,
+      "energy": 5,
+      "row5": 0,
+      "health": 15,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 75,
+      "row0": 0,
+      "row1": 0,
+      "row2": -1,
+      "hunger": 5,
+      "energy": 5,
+      "row5": 0,
+      "health": 10,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 76,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -2,
+      "isCraftable": true,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 77,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -8,
+      "isCraftable": true,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 78,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -8,
+      "isCraftable": true,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 79,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": 0,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 80,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": 0,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 81,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -10,
+      "isCraftable": true,
+      "recipe": [
+        {
+          "id": 36,
+          "count": 1
+        },
+        {
+          "id": 91,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 82,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -3,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 36,
+          "count": 3
+        }
+      ],
+      "tool": [
+        {
+          "id": 76,
+          "count": 1
+        },
+        {
+          "id": 16,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 83,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -10,
+      "isCraftable": true,
+      "recipe": [
+        {
+          "id": 91,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "count": 4
+        }
+      ],
+      "tool": [
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 84,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": 0,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 2
+    },
+    {
+      "id": 85,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 5,
+      "health": -10,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 37,
+          "count": 4
+        },
+        {
+          "id": 38,
+          "count": 1
+        },
+        {
+          "id": 35,
+          "count": 3
+        },
+        {
+          "id": 39,
+          "count": 6
+        },
+        {
+          "id": 21,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 78,
+          "count": 1
+        }
+      ],
+      "row10": 10,
+      "row11": -1,
+      "row12": 5
+    },
+    {
+      "id": 86,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -3,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 87,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -2,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 20,
+          "count": 5
+        }
+      ],
+      "tool": [
+        {
+          "id": 88,
+          "count": 1
+        },
+        {
+          "id": 16,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 88,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -20,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 36,
+          "count": 1
+        },
+        {
+          "id": 38,
+          "count": 1
+        },
+        {
+          "id": 91,
+          "count": 2
+        },
+        {
+          "id": 37,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 5,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 89,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": 0,
+      "isCraftable": true,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 90,
+      "row0": 76,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -3,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 91,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -3,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 6,
+          "count": 2
+        },
+        {
+          "id": 8,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 92,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -30,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 93,
+      "row0": 78,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -20,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 94,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 10,
+      "health": -30,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 36,
+          "count": 6
+        },
+        {
+          "id": 91,
+          "count": 5
+        },
+        {
+          "id": 37,
+          "count": 5
+        },
+        {
+          "id": 13,
+          "count": 5
+        },
+        {
+          "id": 35,
+          "count": 3
+        },
+        {
+          "id": 39,
+          "count": 4
+        }
+      ],
+      "tool": [
+        {
+          "id": 78,
+          "count": 1
+        },
+        {
+          "id": 77,
+          "count": 1
+        }
+      ],
+      "row10": 84,
+      "row11": -1,
+      "row12": 6
+    },
+    {
+      "id": 95,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": 0,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 2
+    },
+    {
+      "id": 96,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -5,
+      "isCraftable": true,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 97,
+      "row0": 0,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -2,
+      "isCraftable": true,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 98,
+      "row0": 76,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -3,
+      "isCraftable": false,
+      "recipe": [],
+      "tool": [],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 99,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 1,
+      "health": -15,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 12,
+          "count": 2
+        },
+        {
+          "id": 116,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 86,
+          "count": 1
+        },
+        {
+          "id": 97,
+          "count": 1
+        }
+      ],
+      "row10": 10,
+      "row11": 1,
+      "row12": 7
+    },
+    {
+      "id": 100,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 4,
+      "health": -30,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 118,
+          "count": 1
+        },
+        {
+          "id": 116,
+          "count": 2
+        },
+        {
+          "id": 65,
+          "count": 8
+        }
+      ],
+      "tool": [
+        {
+          "id": 86,
+          "count": 1
+        },
+        {
+          "id": 97,
+          "count": 1
+        }
+      ],
+      "row10": 10,
+      "row11": 1,
+      "row12": 7
+    },
+    {
+      "id": 101,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 2,
+      "health": -10,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 69,
+          "count": 1
+        },
+        {
+          "id": 115,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 86,
+          "count": 1
+        },
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": 1,
+      "row12": 7
+    },
+    {
+      "id": 102,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 3,
+      "health": -20,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 29,
+          "count": 1
+        },
+        {
+          "id": 115,
+          "count": 1
+        },
+        {
+          "id": 64,
+          "count": 6
+        }
+      ],
+      "tool": [
+        {
+          "id": 86,
+          "count": 1
+        },
+        {
+          "id": 97,
+          "count": 1
+        }
+      ],
+      "row10": 10,
+      "row11": 1,
+      "row12": 7
+    },
+    {
+      "id": 103,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 4,
+      "health": -20,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 118,
+          "count": 1
+        },
+        {
+          "id": 116,
+          "count": 2
+        },
+        {
+          "id": 64,
+          "count": 2
+        }
+      ],
+      "tool": [
+        {
+          "id": 86,
+          "count": 1
+        },
+        {
+          "id": 97,
+          "count": 1
+        }
+      ],
+      "row10": 10,
+      "row11": 3,
+      "row12": 8
+    },
+    {
+      "id": 104,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 1,
+      "health": -10,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 7,
+          "count": 5
+        },
+        {
+          "id": 6,
+          "count": 1
+        }
+      ],
+      "tool": [],
+      "row10": -1,
+      "row11": 3,
+      "row12": 8
+    },
+    {
+      "id": 105,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 2,
+      "health": -15,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 69,
+          "count": 1
+        },
+        {
+          "id": 115,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 86,
+          "count": 1
+        },
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": 3,
+      "row12": 8
+    },
+    {
+      "id": 106,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 3,
+      "health": -30,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 29,
+          "count": 2
+        },
+        {
+          "id": 115,
+          "count": 1
+        },
+        {
+          "id": 64,
+          "count": 1
+        },
+        {
+          "id": 91,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 86,
+          "count": 1
+        },
+        {
+          "id": 97,
+          "count": 1
+        }
+      ],
+      "row10": 10,
+      "row11": 3,
+      "row12": 8
+    },
+    {
+      "id": 107,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 3,
+      "health": -20,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 29,
+          "count": 2
+        },
+        {
+          "id": 115,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 86,
+          "count": 1
+        },
+        {
+          "id": 97,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": 2,
+      "row12": 9
+    },
+    {
+      "id": 108,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 4,
+      "health": -30,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 29,
+          "count": 1
+        },
+        {
+          "id": 118,
+          "count": 1
+        },
+        {
+          "id": 116,
+          "count": 1
+        },
+        {
+          "id": 64,
+          "count": 2
+        }
+      ],
+      "tool": [
+        {
+          "id": 86,
+          "count": 1
+        },
+        {
+          "id": 97,
+          "count": 1
+        }
+      ],
+      "row10": 10,
+      "row11": 2,
+      "row12": 9
+    },
+    {
+      "id": 109,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 1,
+      "health": -10,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 7,
+          "count": 4
+        },
+        {
+          "id": 6,
+          "count": 2
+        }
+      ],
+      "tool": [],
+      "row10": -1,
+      "row11": 2,
+      "row12": 9
+    },
+    {
+      "id": 110,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 2,
+      "health": -15,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 69,
+          "count": 1
+        },
+        {
+          "id": 115,
+          "count": 2
+        }
+      ],
+      "tool": [
+        {
+          "id": 86,
+          "count": 1
+        },
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": 2,
+      "row12": 9
+    },
+    {
+      "id": 111,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 4,
+      "health": -30,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 29,
+          "count": 1
+        },
+        {
+          "id": 115,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 86,
+          "count": 1
+        },
+        {
+          "id": 97,
+          "count": 1
+        }
+      ],
+      "row10": 10,
+      "row11": 0,
+      "row12": 10
+    },
+    {
+      "id": 112,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 1,
+      "health": -10,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 7,
+          "count": 6
+        },
+        {
+          "id": 6,
+          "count": 1
+        }
+      ],
+      "tool": [],
+      "row10": -1,
+      "row11": 0,
+      "row12": 10
+    },
+    {
+      "id": 113,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 3,
+      "health": -20,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 7,
+          "count": 8
+        },
+        {
+          "id": 35,
+          "count": 5
+        }
+      ],
+      "tool": [
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": 0,
+      "row12": 10
+    },
+    {
+      "id": 114,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 2,
+      "health": -15,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 69,
+          "count": 1
+        },
+        {
+          "id": 115,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 86,
+          "count": 1
+        },
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": 0,
+      "row12": 10
+    },
+    {
+      "id": 115,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -5,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 119,
+          "count": 1
+        },
+        {
+          "id": 36,
+          "count": 1
+        },
+        {
+          "id": 72,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 116,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -5,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 98,
+          "count": 2
+        },
+        {
+          "id": 37,
+          "count": 1
+        },
+        {
+          "id": 70,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 76,
+          "count": 1
+        }
+      ],
+      "row10": 9,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 117,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 5,
+      "health": -30,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 36,
+          "count": 4
+        },
+        {
+          "id": 37,
+          "count": 2
+        },
+        {
+          "id": 91,
+          "count": 4
+        }
+      ],
+      "tool": [
+        {
+          "id": 78,
+          "count": 1
+        },
+        {
+          "id": 77,
+          "count": 1
+        }
+      ],
+      "row10": 10,
+      "row11": -1,
+      "row12": 1
+    },
+    {
+      "id": 118,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -5,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 116,
+          "count": 1
+        },
+        {
+          "id": 65,
+          "count": 4
+        }
+      ],
+      "tool": [
+        {
+          "id": 117,
+          "count": 1
+        }
+      ],
+      "row10": 10,
+      "row11": -1,
+      "row12": 0
+    },
+    {
+      "id": 119,
+      "row0": -1,
+      "row1": -1,
+      "row2": -1,
+      "hunger": -1,
+      "energy": -1,
+      "row5": 0,
+      "health": -5,
+      "isCraftable": false,
+      "recipe": [
+        {
+          "id": 4,
+          "count": 1
+        }
+      ],
+      "tool": [
+        {
+          "id": 97,
+          "count": 1
+        }
+      ],
+      "row10": -1,
+      "row11": -1,
+      "row12": 0
+    }
+  ]
+}
